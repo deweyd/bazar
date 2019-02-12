@@ -1,0 +1,211 @@
+@media screen and (max-width: 1200px){
+  /*header*/
+  .nav-button{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+  }
+  .menu nav ul{
+    left: 0;
+    z-index: 2;
+    top:77px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    padding-top: 15px;
+    margin-left: 0;
+    li{
+      display: flex;
+      justify-content: center;
+      margin-right: 0;
+      a{
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 40px;
+        span{
+          display: none;
+        }
+
+      }
+      .active_{
+        &:before{
+          display: none;
+        }
+      }
+    }
+  }
+
+  /*content*/
+  .external-block {
+    width: 85%;
+  }
+  .shop .reviews .reviews__block .reviews-text .input-block button{
+    margin-top: 20px;
+  }
+  .shop .reviews .reviews__block .reviews-text {
+    padding: 35px 30px 30px 30px;
+  }
+  .shop-block{
+    width: 100%;
+    overflow: hidden;
+  }
+  .bedroom-ad{
+    width: 100%;
+  }
+  .bedroom-price{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  /*content*/
+  .gallery-slider {
+    margin-bottom: 15px;
+  }
+  .shop-bl{
+    width: 100%;
+  }
+  .shop .shop-flex .shop-block {
+    width: 100%;}
+  .shop .shop-flex .shop-block .shop__block-info .shop-info {
+    width: 100%;}
+  .external-title--margin {
+    margin-right: 10px;
+  }
+  .discount{
+    margin-bottom: 10px;
+    border: 20px solid rgba(106, 106, 106, 0.2);
+  }
+  .blog-products {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px){
+  /*header*/
+  input[type=search]{
+    display: none;
+  }
+  .select-form__a{
+    display: none;
+  }
+
+  /*content*/
+  .shop .shop-flex{
+    margin-bottom: 15px;
+  }
+  .shop .reviews .reviews__block .reviews-description {
+    padding: 35px 35px 20px 35px;
+  }
+  .shop .reviews .reviews__block .lab {
+    font-size: 14px;
+    padding: 10px 5.1px;}
+  .shop .reviews .reviews__block{
+    margin-bottom: 10px;
+  }
+
+  /*footer*/
+  .footer-bottom__icons {
+    padding-top: 15px;
+    margin: 0 auto;
+  }
+  .footer-flex{
+    padding: 20px 0 0 0;
+  }
+  .footer-block .footer-title {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 576px){
+  /*header*/
+  .tel{
+    display: none;
+  }
+
+  /*content*/
+  .external-title{
+    display: block;
+  }
+  .block-filter {
+    padding: 5px 0 0px 0;
+  }
+  .new-furniture label .bl{
+    background: none;
+  }
+  .shop .shop-flex{
+    padding: 10px;
+  }
+  .slid-dots_1{
+    top: 10px;
+  }
+  .gallery {
+    padding-bottom: 15px;
+  }
+  .new-furniture label{
+    margin-top: 20px;
+  }
+  .furniture-flex__block--flex{
+    padding-bottom: 0px;
+  }
+  .furniture-flex__block {
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  .external-block{
+    margin-bottom: 20px;
+  }
+  .advertising {
+    padding-bottom: 15px;
+  }
+  .slider-shop {
+    margin-bottom: 40px;
+  }
+  .new-furniture {
+    padding-bottom: 20px;
+  }
+  .gallery-tab label{
+    padding: 10px 5px;
+  }
+  .slid-block{
+    padding: 5px;
+  }
+  .blog-products__text .but{
+    margin-left: 0;
+  }
+  .brand-blocks{
+    padding-bottom: 15px;
+  }
+  .shop .shop-flex .shop-block .shop__block-info .shop-info .shop-info__star {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*footer*/
+  .footer-flex a img{
+    display: none;
+  }
+  .footer-blocks{
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 464px){
+  /*header*/
+  .menu {
+    height: auto;
+  }
+  .select-choice--margin{
+    margin: 12px 0 0;
+
+  }
+}
+@media screen and (max-width: 370px){
+  /*content*/
+  .shop .reviews .reviews__block .lab {
+    font-size: 11px;}
+}
